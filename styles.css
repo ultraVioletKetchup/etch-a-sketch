@@ -1,6 +1,6 @@
 .grid-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Key property in grid structure*/
     width: 800px; /* Adjust as needed */
 }
 .grid-item {
@@ -9,4 +9,9 @@
     width: 50px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
     box-sizing: border-box;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+.grid-item:hovered {
+    background-color: #f00; /* Change color on hover */
+    filter: pixelate(5px); /* Apply pixelated effect on hover */
 }
