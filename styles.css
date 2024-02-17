@@ -11,7 +11,7 @@
     box-sizing: border-box;
     transition: background-color 0.3s ease; /* Smooth transition */
 }
-.grid-item:hovered {
-    background-color: #f00; /* Change color on hover */
+.grid-item.hovered {
+    background-color: #39a78e; /* Change color on hover */
     filter: pixelate(5px); /* Apply pixelated effect on hover */
 }
